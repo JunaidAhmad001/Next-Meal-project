@@ -9,7 +9,7 @@ import MealsFormSubmit from '@/components/meals/meal-form-submit';
 
 export default function ShareMealPage() {
   const [state, formAction] = useFormState(shareMeal, { message: null });
-
+  // const arr={}
   return (
     <>
       <header className={classes.header}>
